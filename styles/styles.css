@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Lato-Regular, sans-serif;
+    src: url(../fonts/LatoRegular.ttf)
+}
+
+@font-face {
+    font-family: MyriadPro-Regular, sans-serif;
+    src: url(../fonts/MyriadPro-Regular.otf)
+}
+
+.our-features {
+    width: 1170px;
+    height: 232px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.rectangle {
+    box-sizing: border-box;
+    /*vertical-align: top;*/
+    margin-right: 23px;
+    /*padding: 87px 48px 0 211px;*/
+    vertical-align: bottom;
+}
+
+.rectangle:last-child {
+    margin-right: 0;
+}
+
+.our-features__rectangle {
+    display: inline-block;
+    width: 370px;
+    height: inherit;
+    background: rgb(67, 67, 67) url(../img/Rect-who-we-are-sprite.png) no-repeat 41px 30px;
+}
+
+.our-features__rectangle-center {
+    background: rgb(5, 174, 204) url(../img/Rect-who-we-are-sprite.png) no-repeat -375px 30px;
+}
+
+.our-features__rectangle-right {
+    background: rgb(240, 98, 110) url(../img/Rect-who-we-are-sprite.png) no-repeat -832px 30px;
+}
+
+.rectangle__text {
+    display: table-row;
+    height: 100%;
+}
+
+.text__title {
+    display: table-cell;
+    vertical-align: bottom;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.t1 {
+    display: table;
+    height: 100%;
+
+}
+
+.t2 {
+    display: table-row;
+    height: 100%;
+
+}
