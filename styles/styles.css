@@ -74,6 +74,54 @@ ul {
     font-weight: lighter;
 }
 
+/* Header-bottom */
+
+.header-bottom {
+    clear: right;
+    height: 91px;
+    float: right;
+    font-family: Lato-Regular, sans-serif;
+}
+
+.header-bottom__menu {
+    list-style: none;
+    letter-spacing: 1.2px;
+}
+
+.header-bottom-menu__item {
+    display: inline-block;
+    width: 116px;
+    height: 89px;
+    margin: 0 5px 0 0;
+    background: rgb(5, 174, 204);
+}
+
+.header-bottom-menu__item:last-child {
+    margin: 0;
+}
+
+.header-bottom-menu__item_long {
+    width: 142px;
+}
+
+.header-bottom-menu__item_red {
+    background: rgb(240, 98, 110);
+}
+
+.header-bottom__link-wrapper {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header-bottom-menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
 
 /* Блок "Who we are" */
 
