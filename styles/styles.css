@@ -8,6 +8,58 @@
     src: url(../fonts/MyriadPro-Regular.otf)
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Контейнер для всей страницы */
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Блок "Who we are" */
+
+.who-we-are-block {
+    padding: 0 0 31px 0;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.who-we-are-block-wrapper {
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.who-we-are-block__title {
+    float: left;
+    position: relative;
+    left: 32px; bottom: -1px;
+    display: block;
+    margin: 0;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #05aecc;
+    border-bottom: 1px solid red;
+}
+
+/* Текстовый блок в блоке "Who we are" */
+
+.who-we-are-paragraph-wrapper {
+    padding: 12px 31px 19px 28px;
+}
+
+.who-we-are-block__paragraph {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #464646;
+    line-height: 26px;
+}
+
+/* Блок прямоугольников в разделе "Кто мы такие" */
+
 .our-features {
     width: 1170px;
     height: 232px;
@@ -22,10 +74,8 @@
 
 .rectangle {
     box-sizing: border-box;
-    /*vertical-align: top;*/
     margin-right: 23px;
-    /*padding: 87px 48px 0 211px;*/
-    vertical-align: bottom;
+    padding: 0 20px 0 210px;
 }
 
 .rectangle:last-child {
@@ -34,6 +84,7 @@
 
 .our-features__rectangle {
     display: inline-block;
+    vertical-align: top;
     width: 370px;
     height: inherit;
     background: rgb(67, 67, 67) url(../img/Rect-who-we-are-sprite.png) no-repeat 41px 30px;
@@ -47,27 +98,41 @@
     background: rgb(240, 98, 110) url(../img/Rect-who-we-are-sprite.png) no-repeat -832px 30px;
 }
 
-.rectangle__text {
-    display: table-row;
-    height: 100%;
+.rectangle__title {
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.text__title {
-    display: table-cell;
-    vertical-align: bottom;
+.title {
     font-weight: lighter;
     margin: 0;
     padding: 0;
 }
 
-.t1 {
-    display: table;
-    height: 100%;
+/* Кнопка "Register now" */
 
+.button-register-wrapper {
+    width: 648px;
+    height: 61px;
+    margin: 31px auto 0 auto;
 }
 
-.t2 {
-    display: table-row;
-    height: 100%;
+.button-register {
+    width: 648px;
+    height: inherit;
+    background: rgb(5, 174, 204);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+}
 
+.button-register__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
 }

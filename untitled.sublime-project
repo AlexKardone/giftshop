@@ -1,0 +1,14 @@
+{
+   "folders":
+   [
+      {
+         "path": "/Users/alexandermatskevich/Yandex.Disk-alex-kardone.localized/sites/giftshop"
+      }
+   ],
+   "settings": {
+      "sublime-view-in-browser": {
+         "baseUrl": "http://localhost/giftshop",
+         "basePath": "/Users/alexandermatskevich/Yandex.Disk-alex-kardone.localized/sites/giftshop"
+      }
+   }
+}
