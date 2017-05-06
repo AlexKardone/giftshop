@@ -81,15 +81,20 @@ ul {
     height: 91px;
     float: right;
     font-family: Lato-Regular, sans-serif;
+    background: rgb(246, 246, 246);
+    box-shadow: -450px 0 0 0 rgb(246, 246, 246);
 }
 
 .header-bottom__menu {
     list-style: none;
     letter-spacing: 1.2px;
+    box-sizing: border-box;
+    background: rgb(246, 246, 246);
 }
 
 .header-bottom-menu__item {
     display: inline-block;
+    vertical-align: middle;
     width: 116px;
     height: 89px;
     margin: 0 5px 0 0;
@@ -108,6 +113,14 @@ ul {
     background: rgb(240, 98, 110);
 }
 
+.header-bottom-menu__item_img-gift {
+    background: rgb(5, 174, 204) url(../img/gift.png) no-repeat 104px 47%;
+}
+
+.header-bottom-menu__item_img-cart {
+    background: rgb(240, 98, 110) url(../img/cart.png) no-repeat 79px 50%;
+}
+
 .header-bottom__link-wrapper {
     display: table-cell;
     width: inherit;
@@ -122,13 +135,11 @@ ul {
     font-weight: lighter;
 }
 
-/* Images into rectangles in header-bottom */
+/* Images in rectangles in header-bottom */
 
-.header-bottom-menu__link_with-img::after {
-    content: "";
-    display: inline-block;
-    width: 25px;
-    height: 27px;
+.header-bottom-menu__link_img {
+    text-align: none;
+    margin: 0 0 0 -35px;
 }
 
 
