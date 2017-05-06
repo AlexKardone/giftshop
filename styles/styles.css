@@ -145,16 +145,103 @@ ul {
 /* Main-menu-block */
 
 .main-menu {
+  display: table;
+  position: relative;
     box-sizing: border-box;
-    padding: 0 115px;
+    padding: 0 110px;
     width: 100%;
     height: 71px;
     background: rgb(5, 174, 204);
 }
 
 .main-menu__item {
+    display: table-cell;
+  position: relative;
+}
+
+/* Main-menu: Open second level */
+
+.main-menu__item:hover .main-menu__second-lvl {
+  display: block;
+}
+
+.main-menu__link {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 71px;
+    font-family: Lato-Regular, sans-serif;
+    color: #ffffff;
+    text-decoration-line: none;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+}
+
+.main-menu__link:hover {
+  color: #ef5966;
+  background: rgb(255, 255, 255);
+}
+
+/* Main-menu: second level */
+
+.main-menu__second-lvl {
+  /*display: none;*/
+  position: absolute;
+  box-sizing: border-box;
+  padding: 25px 17px 15px 21px;
+  top: 75px;
+  width: 120%;
+  margin: 0px;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 25px 16px rgba(0, 0, 0, 0.1);
+}
+
+.second-lvl__item {
+  display: block;
+}
+
+.item__img {
     display: inline-block;
     vertical-align: top;
+}
+
+.item__text-wrapper {
+    display: inline-block;
+    width: calc(100% - 85px);
+    padding: 0 0 0 5px;
+}
+
+.item__name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ef5966;
+    letter-spacing: 1.2px;
+}
+
+.item__prev {
+    margin: 0;
+    color: #454545;
+}
+
+.item__btn {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 117px;
+    height: 23px;
+    background: rgb(5, 174, 204);
+}
+
+.btn__link {
+    font-weight: lighter;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Блок "Who we are" */
