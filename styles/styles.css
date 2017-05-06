@@ -122,6 +122,15 @@ ul {
     font-weight: lighter;
 }
 
+/* Images into rectangles in header-bottom */
+
+.header-bottom-menu__link_with-img::after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 27px;
+}
+
 
 /* Блок "Who we are" */
 
