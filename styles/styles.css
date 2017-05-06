@@ -1,11 +1,19 @@
 @font-face {
     font-family: Lato-Regular, sans-serif;
-    src: url(../fonts/LatoRegular.ttf)
+    src: url(../fonts/LatoRegular.ttf);
+    font-weight: lighter;
 }
 
 @font-face {
     font-family: MyriadPro-Regular, sans-serif;
     src: url(../fonts/MyriadPro-Regular.otf)
+}
+
+html,
+body,
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .clearfix::after {
@@ -20,6 +28,109 @@
     width: 1170px;
     margin: 0 auto;
 }
+
+/* HEADER */
+
+.page-header {
+    width: 100%;
+    height: 213px;
+}
+
+/*  Header-logo */
+
+.page-header__logo {
+    float: left;
+    margin: 19px 0 0 18px;
+}
+
+/*. Header-top */
+
+.header-top {
+    height: 38px;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px 0 0 0;
+    font-family: Lato-Regular, sans-serif;
+}
+
+.header-top__menu {
+    list-style: none;
+    
+}
+
+.menu__item {
+    display: inline;
+    margin-right: 24px;
+    letter-spacing: 1.2px;
+}
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+.item__link {
+    text-decoration: none;
+    color: #434343;
+    font-weight: lighter;
+}
+
+/* Header-bottom */
+
+.header-bottom {
+    clear: right;
+    height: 91px;
+    float: right;
+    font-family: Lato-Regular, sans-serif;
+}
+
+.header-bottom__menu {
+    list-style: none;
+    letter-spacing: 1.2px;
+}
+
+.header-bottom-menu__item {
+    display: inline-block;
+    width: 116px;
+    height: 89px;
+    margin: 0 5px 0 0;
+    background: rgb(5, 174, 204);
+}
+
+.header-bottom-menu__item:last-child {
+    margin: 0;
+}
+
+.header-bottom-menu__item_long {
+    width: 142px;
+}
+
+.header-bottom-menu__item_red {
+    background: rgb(240, 98, 110);
+}
+
+.header-bottom__link-wrapper {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header-bottom-menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+/* Images into rectangles in header-bottom */
+
+.header-bottom-menu__link_with-img::after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 27px;
+}
+
 
 /* Блок "Who we are" */
 
