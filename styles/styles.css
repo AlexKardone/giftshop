@@ -362,7 +362,7 @@ ul {
     font-weight: lighter;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    background: rgb(239, 107, 115);
+    background: rgba(239, 107, 115, 0.88);
 }
 
 /* Main content: Women's wear */
@@ -410,9 +410,68 @@ ul {
 
 .search-block {
     float: left;
+    position: relative;
     width: 670px;
-    height: 170px;
+    height: 171px;
+    line-height: 170px;
+    text-align: center;
+    background: rgb(240, 98, 110);
 }
+
+.search-block__label {
+    position: absolute;
+    left: 80px;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #424242;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+}
+
+.search-block__field {
+    box-sizing: border-box;
+    width: 485px;
+    height: 72px;
+    padding: 10px 20px;
+    margin-right: 12px;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 5px 10px -1px rgba(0, 0, 0, 0.19),
+    5px 0 10px -1px rgba(0, 0, 0, 0.19);
+}
+
+/* Main content: Search-block: placeholder style */
+
+.search-block__field::-webkit-input-placeholder {padding-left: 220px; color:#c2c2c2; letter-spacing: 1.8px; font-weight: lighter;}
+.search-block__field::-moz-placeholder          {padding-left: 220px; color:#c2c2c2; letter-spacing: 1.8px; font-weight: lighter;}
+.search-block__field:-moz-placeholder           {padding-left: 220px; color:#c2c2c2; letter-spacing: 1.8px; font-weight: lighter;}
+.search-block__field:-ms-input-placeholder      {padding-left: 220px; color:#c2c2c2; letter-spacing: 1.8px; font-weight: lighter;}
+
+.search-block__field:focus {
+    box-shadow:  none;
+}
+
+.search-block__field:focus ~ .search-block__label {
+    display: none;
+}
+
+.search-block__btn {
+    display: none;
+}
+
+.search-block__magnifer {
+    position: relative;
+    top: 27px;
+  width: 60px;
+  height: 60px;
+  background: #f0626e;
+}
+
+.search-block__handle {
+  transform: rotate(-45deg);
+}
+
 
 /* Main content: Crafts-block */
 
@@ -546,3 +605,6 @@ ul {
     font-size: 27px;
     font-weight: lighter;
 }
+
+/* FOOTER */
+

@@ -53,7 +53,7 @@
 
     </div>
 
-<!--Главное меню
+<!--Главное меню-->
     <nav class="main-menu">
         <li class="main-menu__item"><a href="#" class="main-menu__link">Art</a>
             <div class="main-menu__wrapper">
@@ -362,9 +362,9 @@
            </div>
         </li>
     </nav>    
-<!--Основная часть сайта-->
+<!--Основная часть сайта
 
-<!--Блок "Мужская одежда"-->
+Блок "Мужская одежда"-->
 
     <div class="main-content-block clearfix">
 
@@ -425,9 +425,19 @@
 
 <!--Блок поиска-->
     <div class="main-content-block__rect search-block">
-        Search your product here ( e.g.: Silver diamond ring )
-
-        <a href="#">Search</a>
+      <div class="search-block__wrapper">
+        <input class="search-block__field" type="text" name="search" id="search-field" placeholder="( e.g.: Silver diamond ring )">
+        <label class="search-block__label" for="search-field">Search your product here</label>
+        <input class="search-block__btn" type="submit" name="submit-btn" id="submit-btn-field" value="Search">
+        <a href="#">
+          <svg class="search-block__magnifer">
+            <rect class="search-block__handle" width="50" height="10" x="-34" y="37" rx="5" ry="20" fill="#ffffff"/>
+            <circle r="26" cx="56%" cy="45%" fill="#f0626e"/> 
+            <circle r="23" cx="56%" cy="45%" fill="#ffffff"/> 
+            <circle r="18" cx="56%" cy="45%" fill="#f0626e"/>
+          </svg> 
+        </a>
+      </div> 
     </div>
 
     <!--Блок "Ювелирные изделия"-->
