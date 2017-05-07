@@ -136,11 +136,11 @@ ul {
     background: rgb(240, 98, 110);
 }
 
-.header-bottom-menu__item_img-gift {
+.item__img-gift {
     background: rgb(5, 174, 204) url(../img/gift.png) no-repeat 104px 47%;
 }
 
-.header-bottom-menu__item_img-cart {
+.item__img-cart {
     background: rgb(240, 98, 110) url(../img/cart.png) no-repeat 79px 50%;
 }
 
@@ -406,6 +406,10 @@ ul {
     background: url(../img/kids.png) no-repeat -7px -50px;
 }
 
+.panel__summary_kids {
+    width: 250px;
+}
+
 /* Main content: Search-block */
 
 .search-block {
@@ -476,18 +480,109 @@ ul {
 /* Main content: Crafts-block */
 
 .crafts-block {
+    position: relative;
     float: left;
     width: 670px;
     height: 334px;
 }
 
+.panel__summary_crafts {
+    display: table-row;
+    position: absolute;
+    bottom: -2px; right: 0;
+    width: 408px;
+    height: 54px;
+    padding: 0 0 0 47px;
+}
+
+.crafts-block__title {
+    display: table-cell;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.crafts-block__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+
+.add-to-whishlist {
+    display: table-cell;
+    /*float: right;*/
+}
+
+.add-to-card {
+    display: table-cell;
+    /*float: right;*/
+}
+
+.price {
+    display: table-cell;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 24px;
+}
+
 /* Main content: Jewelry-block */
 
 .jewelry-block {
+    position: relative;
     float: right;
     width: 494px;
     height: 510px;
     margin-right: 0;
+    background: url(../img/jevelry.png) no-repeat -254px -16px;
+}
+
+.panel__summary_jewelry {
+    position: absolute;
+    right: 0; bottom: -2px;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 87px;
+    height: 396px;
+}
+
+.summary__btn {
+    position: absolute;
+    top: 18px; right: 0;
+    width: 98px;
+    height: 86px;
+    background: rgb(238, 100, 112);
+}
+
+.summary__triangle {
+    position: absolute;
+    left: 0; bottom: -12px;
+    width: 11px;
+    height: 12px;
+    /*background: rgb(198, 83, 93);*/
+}
+
+.btn__arrow-block {
+    width: 98px;
+    height: 86px;
+}
+
+.btn__arrow {
+    transform: rotate(45deg);
+}
+
+.btn__arrow_bottom {
+    transform: rotate(-45deg);
+}
+
+.summary__title_jew {
+    position: absolute;
+    right: -71px; bottom: 110px;
+    color: #ffffff;
+    transform: rotate(270deg);
+    font-size: 51px;
 }
 
 /* Блок "Who we are" */

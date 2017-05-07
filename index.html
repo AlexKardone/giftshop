@@ -38,19 +38,18 @@
                         <a href="#" class="header-bottom-menu__link">Sign In</a>
                     </div>
                 </li><!--
-                --><li class="header-bottom-menu__item header-bottom-menu__item_long header-bottom-menu__item_img-gift">
+                --><li class="header-bottom-menu__item header-bottom-menu__item_long item__img-gift">
                     <div class="header-bottom__link-wrapper">
                         <a href="#" class="header-bottom-menu__link header-bottom-menu__link_img">Whislost</a>
                     </div>
                 </li><!--
-                --><li class="header-bottom-menu__item header-bottom-menu__item_long header-bottom-menu__item_red header-bottom-menu__item_img-cart">
+                --><li class="header-bottom-menu__item header-bottom-menu__item_long header-bottom-menu__item_red item__img-cart">
                     <div class="header-bottom__link-wrapper">
                         <a href="#" class="header-bottom-menu__link header-bottom-menu__link_img">Cart</a>
                     </div>
                 </li>
             </ul>
         </div>
-
     </div>
 
 <!--Главное меню-->
@@ -407,7 +406,7 @@
         <!--Блок "Детская одежда"-->
         <div class="main-content-block__rect wear-kids">
           <div class="wear__panel wear__panel_s">
-            <div class="panel__summary panel__summary_s">
+            <div class="panel__summary panel__summary_s panel__summary_kids">
               <h2  class="summary__title summary__title_s">Baby’s Wear</h2>
               <p class="summary__text summary__text_s">Lorem Ipsum is simply dummy text
               of the printing and typesetting</p>
@@ -443,25 +442,32 @@
     <!--Блок "Ювелирные изделия"-->
 
     <div class="main-content-block__rect jewelry-block">
-        <h3  class="summary__title"><a href="#">Jewelry</a></h3>
+      <div class="panel__summary panel__summary_jewelry">
+        <div class="summary__btn">
+            <svg class="btn__arrow-block">
+              <circle r="26" cx="50%" cy="50%" fill="#ffffff"/>
+              <rect class="btn__arrow" width="17" height="2" x="54" y="-10" fill="#ee6470"/>
+              <rect class="btn__arrow btn__arrow_bottom" width="17" height="2" x="-8" y="70" fill="#ee6470"/>
+            </svg> 
+            <svg class="summary__triangle">
+              <polygon points="0,0 11,0 11,12" fill="#c6535d">
+            </svg>
+        </div>
+        
+        <h3  class="summary__title summary__title_s summary__title_jew">Jewelry</h3>
+      </div>
 
     </div>
 
 <!--Блок "Crafts"-->
     <div class="main-content-block__rect crafts-block">
-
-        Photo-Crafts
-
-        <div class="hover-block">
-            <h3><a href="#">Crafts</a></h3>
-            <div class="add-to-whishlist">add to wishlist</div>
-            <div class="add-to-card">add to cart</div>
-            <b>$99.00</b>
+        <div class="panel__summary panel__summary_s panel__summary_crafts">
+            <h3 class="crafts-block__title"><a class="crafts-block__link" href="#">Crafts</a></h3>
+            <div class="add-to-whishlist item__img-gift">1</div>
+            <div class="add-to-card item__img-cart">1</div>
+            <div class="price">$99.00</div>
         </div>
     </div>
-
-
-
     </div>
 
 <!--Блок "Новые товары"-->
