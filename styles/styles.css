@@ -161,7 +161,7 @@ ul {
 
 /* Main-menu: Open second level */
 
-.main-menu__item:hover .main-menu__second-lvl {
+.main-menu__item:hover .main-menu__wrapper {
   display: block;
 }
 
@@ -187,13 +187,17 @@ ul {
 /* Main-menu: second level */
 
 .main-menu__wrapper {
+    display: none;
     position: absolute;
     top: 71px;
     padding-top: 3px;
 }
 
+.main-menu__wrapper_right {
+    right: 0;
+}
+
 .main-menu__second-lvl {
-  display: none;
   box-sizing: border-box;
   padding: 7px 17px 15px 20px;
   width: 262px;
@@ -287,7 +291,7 @@ ul {
     border-bottom: 1px solid red;
 }
 
-/* Текстовый блок в блоке "Who we are" */
+/* Block "Who we are" */
 
 .who-we-are-paragraph-wrapper {
     padding: 12px 31px 19px 28px;
