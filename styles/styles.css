@@ -14,6 +14,24 @@
     src: url(../fonts/AparajitaRegular.ttf)
 }
 
+/* Sticky footer */
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: table-row;
+    height: 100%;
+}
+
 html,
 body,
 ul {
