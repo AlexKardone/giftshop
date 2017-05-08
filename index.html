@@ -22,7 +22,7 @@
                 <li class="menu__item"><a href="#" class="item__link">Community</a></li>
                 <li class="menu__item"><a href="#" class="item__link">Blogs</a></li>
                 <li class="menu__item"><a href="#" class="item__link">Mobile</a></li>
-                <li class="menu__item"><a href="#" class="item__link">Gift Cards</a></li>
+                <li class="menu__item"><a href="#" class="item__link">Gift carts</a></li>
             </ul>
         </div>
     <!--Низ хэдера-->
@@ -380,7 +380,7 @@
             <!-- <div class="hover-block">
                 <h3><a href="#">Men’s shop</a></h3>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div> -->
         </div>
@@ -398,7 +398,7 @@
             <!-- <div class="hover-block">
                 <h3><a href="#">Women’s shop</a></h3>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div> -->
         </div>
@@ -416,7 +416,7 @@
           <!-- <div class="hover-block">
               <h3><a href="#">Baby shop</a></h3>
               <div class="add-to-whishlist">add to wishlist</div>
-              <div class="add-to-card">add to cart</div>
+              <div class="add-to-cart">add to cart</div>
               <b>$99.00</b>
           </div> -->
         </div>
@@ -462,17 +462,18 @@
 <!--Блок "Crafts"-->
     <div class="main-content-block__rect crafts-block">
         <div class="panel__summary panel__summary_s panel__summary_crafts">
-            <h3 class="crafts-block__title"><a class="crafts-block__link" href="#">Crafts</a></h3>
-            <div class="add-to-whishlist item__img-gift">1</div>
-            <div class="add-to-card item__img-cart">1</div>
-            <div class="price">$99.00</div>
+            <h3 class="block__title"><a class="block__link" href="#">Crafts</a></h3>
+            <div class="add-to-whishlist"></div><div class="add-to-cart"></div>
+            <div class="price"><span>$</span>99.<sup>00</sup></div>
         </div>
     </div>
     </div>
 
 <!--Блок "Новые товары"-->
     <div class="new-products">
-        <h3><a href="#">New Products</a></h3>
+        <div class="section-title__wrapper clearfix">
+            <h3 class="section-title__title">New Products</h3>
+        </div>
 
         btn-left
         btn-right
@@ -480,18 +481,19 @@
         <div class="new-items">
             <div class="new-item">
                 Photo-new-prod-1
-
+                <div class="panel__summary panel__summary_s panel__summary_crafts">
                 <h3><a href="#">Item name</a></h3>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
-                <b>$99.00</b>
+                <div class="add-to-cart">add to cart</div>
+                <div class="price"><span>$</span>99.<sup>00</sup></div>
+                </div>
             </div>
             <div class="new-item">
                 Photo-new-prod-2
 
                 <h3><a href="#">Item name</a></h3>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
             <div class="new-item">
@@ -499,7 +501,7 @@
 
                 <h3><a href="#">Item name</a></h3>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
         </div>
@@ -507,7 +509,9 @@
 
 <!--Блок "Рекомендуемые товары"-->
     <div class="featured-products">
-        <h3>Featured Products</h3>
+        <div class="section-title__wrapper clearfix">
+            <h3 class="section-title__title">Featured Products</h3>
+        </div>
 
         btn-left
         btn-right
@@ -524,7 +528,7 @@
 
                 <div class="compare">comparep</div>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
             <div class="featured-item">
@@ -536,7 +540,7 @@
 
                 <div class="compare">comparep</div>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
             <div class="featured-item">
@@ -549,7 +553,7 @@
                 <p>Short Description here</p>
                 <div class="compare">comparep</div>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
             <div class="featured-item">
@@ -561,7 +565,7 @@
 
                 <div class="compare">comparep</div>
                 <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-card">add to cart</div>
+                <div class="add-to-cart">add to cart</div>
                 <b>$99.00</b>
             </div>
         </div>
@@ -569,8 +573,8 @@
 
 <!--Блок "Кто мы такие"-->
     <div class="who-we-are-block">
-        <div class="who-we-are-block-wrapper clearfix">
-            <h3 class="who-we-are-block__title">Who We Are</h3>
+        <div class="section-title__wrapper clearfix">
+            <h3 class="section-title__title">Who We Are</h3>
         </div>
         <div class="who-we-are-paragraph-wrapper">
             <p class="who-we-are-block__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

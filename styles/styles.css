@@ -484,24 +484,28 @@ ul {
     float: left;
     width: 670px;
     height: 334px;
+    background: url(../img/crafts.png) no-repeat -5px -237px;
 }
 
 .panel__summary_crafts {
-    display: table-row;
     position: absolute;
     bottom: -2px; right: 0;
     width: 408px;
     height: 54px;
-    padding: 0 0 0 47px;
+    padding: 0;
 }
 
-.crafts-block__title {
-    display: table-cell;
+.block__title {
+    display: block;
+    float: left;
+    width: 203px;
+    text-align: center;
+    line-height: 55px;
     margin: 0;
     font-weight: lighter;
 }
 
-.crafts-block__link {
+.block__link {
     color: #ffffff;
     text-decoration: none;
     font-family: Lato-Regular, sans-serif;
@@ -511,21 +515,41 @@ ul {
 }
 
 .add-to-whishlist {
-    display: table-cell;
-    /*float: right;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 51px;
+    height: 100%;
+    background: rgb(5, 174, 204) url(../img/gift.png) no-repeat 50% 50%;
 }
 
-.add-to-card {
-    display: table-cell;
-    /*float: right;*/
+.add-to-cart {
+    display: inline-block;
+    vertical-align: top;
+    width: 51px;
+    height: 100%;
+    background: rgb(240, 98, 110) url(../img/cart.png) no-repeat 50% 50%;
 }
 
 .price {
-    display: table-cell;
+    float: right;
+    width: 102px;
+    height: 100%;
     color: #ffffff;
+    text-align: center;
+    line-height: 44px;
     text-decoration: none;
+    font-weight: lighter;
     font-family: Lato-Regular, sans-serif;
     font-size: 24px;
+    background: rgb(67, 67, 67);
+}
+
+.price span {
+    font-size: 16px;
+}
+
+.price sup {
+    font-size: 16px;
 }
 
 /* Main content: Jewelry-block */
@@ -585,18 +609,13 @@ ul {
     font-size: 51px;
 }
 
-/* Блок "Who we are" */
+/* Stiles for section titles */
 
-.who-we-are-block {
-    padding: 0 0 31px 0;
+.section-title__wrapper {
     border-bottom: 1px solid #b9b9b9;
 }
 
-.who-we-are-block-wrapper {
-    border-bottom: 1px solid #b9b9b9;
-}
-
-.who-we-are-block__title {
+.section-title__title {
     float: left;
     position: relative;
     left: 32px; bottom: -1px;
@@ -607,6 +626,13 @@ ul {
     font-size: 30px;
     color: #05aecc;
     border-bottom: 1px solid red;
+}
+
+/* Блок "Who we are" */
+
+.who-we-are-block {
+    padding: 0 0 31px 0;
+    border-bottom: 1px solid #b9b9b9;
 }
 
 /* Block "Who we are" */
