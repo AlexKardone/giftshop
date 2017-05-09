@@ -1,0 +1,15 @@
+.internal-message {
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #454545;
+	margin: 50px 0 50px 0;
+}
+
+.internal-img {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	margin: 40px auto;
+	box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.5);
+}

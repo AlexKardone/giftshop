@@ -132,7 +132,6 @@ ul {
     vertical-align: middle;
     width: 116px;
     height: 89px;
-    margin: 0 5px 0 0;
     background: rgb(5, 174, 204);
 }
 
@@ -855,8 +854,6 @@ ul {
 
 .who-we-are-block {
     padding: 0 0 31px 0;
-    border-bottom: 1px solid #b9b9b9;
-    margin: 0 0 50px 0;
 }
 
 .who-we-are-paragraph-wrapper {
@@ -957,6 +954,8 @@ ul {
     font-family: Lato-Regular, sans-serif;
     font-weight: lighter;
     color: #434343;
+    padding-top: 51px;
+    border-top: 1px solid #b9b9b9;
 }
 
 .footer-top {
@@ -987,6 +986,11 @@ ul {
 
 .footer-menu__item {
     margin: 0 0 12px 0;
+}
+
+.footer-menu__item a {
+    text-decoration: none;
+    color: #434343;
 }
 
 .footer-menu__subscribe-block {
