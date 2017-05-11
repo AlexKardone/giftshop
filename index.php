@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Gift Shop</title>
     <link href="styles/styles.css" rel="stylesheet">
 </head>
@@ -81,10 +82,10 @@
         <input class="search-block__btn" type="submit" name="submit-btn" id="submit-btn-field" value="Search">
         <a href="/giftshop/section/section.php">
           <svg class="search-block__magnifer">
-            <rect class="search-block__handle" width="50" height="10" x="-34" y="37" rx="5" ry="20" fill="/giftshop/section/section.phpffffff"/>
-            <circle r="26" cx="56%" cy="45%" fill="/giftshop/section/section.phpf0626e"/> 
-            <circle r="23" cx="56%" cy="45%" fill="/giftshop/section/section.phpffffff"/> 
-            <circle r="18" cx="56%" cy="45%" fill="/giftshop/section/section.phpf0626e"/>
+            <rect class="search-block__handle" width="50" height="10" x="-34" y="37" rx="5" ry="20" fill="#ffffff"/>
+            <circle r="26" cx="56%" cy="45%" fill="#f0626e"/> 
+            <circle r="23" cx="56%" cy="45%" fill="#ffffff"/> 
+            <circle r="18" cx="56%" cy="45%" fill="#f0626e"/>
           </svg> 
         </a>
       </div> 
@@ -97,13 +98,13 @@
         <div class="summary__btn">
           <a href="/giftshop/section/section.php">
             <svg class="btn__arrow-block">
-              <circle r="26" cx="50%" cy="50%" fill="/giftshop/section/section.phpffffff"/>
-              <rect class="btn__arrow" width="17" height="2" x="54" y="-10" fill="/giftshop/section/section.phpee6470"/>
-              <rect class="btn__arrow btn__arrow_bottom" width="17" height="2" x="-8" y="70" fill="/giftshop/section/section.phpee6470"/>
+              <circle r="26" cx="50%" cy="50%" fill="#ffffff"/>
+              <rect class="btn__arrow" width="17" height="2" x="54" y="-10" fill="#ee6470"/>
+              <rect class="btn__arrow btn__arrow_bottom" width="17" height="2" x="-8" y="70" fill="#ee6470"/>
             </svg> 
           </a>
             <svg class="summary__triangle">
-              <polygon points="0,0 11,0 11,12" fill="/giftshop/section/section.phpc6535d">
+              <polygon points="0,0 11,0 11,12" fill="#c6535d">
             </svg>
         </div>
         
@@ -127,93 +128,8 @@
   <?php include ("new_products/new_products.html") ?> 
     
 <!--Блок "Рекомендуемые товары"-->
-    <div class="carousels-block featured-products clearfix">
-        <div class="section-title__wrapper clearfix">
-            <h3 class="section-title__title">Featured Products</h3>
-            <div class="arrows">
-              <div class="arrows__both arrows__left">
-                <a href="/giftshop/section/section.php">
-                  <svg class="btn__arrow-block btn__arrow-block_carousel btn__arrow-block_blue">
-                    <rect class="btn__arrow btn__arrow-block_car-top" width="17" height="2" x="49" y="7" fill="/giftshop/section/section.phpffffff"/>
-                    <rect class="btn__arrow btn__arrow_bottom btn__arrow-block_car-bottom" width="17" height="2" x="-8" y="48" fill="/giftshop/section/section.phpffffff"/>
-                  </svg>
-                </a>
-              </div>
-              <div class="arrows__both arrow__right">
-                <a href="/giftshop/section/section.php">
-                  <svg class="btn__arrow-block btn__arrow-block_carousel">
-                    <rect class="btn__arrow btn__arrow-block_car-top" width="17" height="2" x="41" y="-3" fill="/giftshop/section/section.phpffffff"/>
-                    <rect class="btn__arrow btn__arrow_bottom btn__arrow-block_car-bottom" width="17" height="2" x="-15" y="57" fill="/giftshop/section/section.phpffffff"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
-        </div>
-        <div class="featured-items">
-            <div class="featured-items__item">
-              <div class="featured-item__wrapper">
-                <img class="feat__img" src="img/feat-1.png" width="268" alt="feat-1">
-                <div class="sticker">20% OFF</div>
-                <div class="featured-item__info">
-                  <h3 class="featured-item__title">Product Title here</h3>
-                  <p class="featured-item__description">Short Description here</p>
-                </div>
-              </div>
-              <div class="featured-item__links-block">
-                <div class="compare feat__links"></div>
-                <div class="add-to-whishlist add-to-whishlist_feat feat__links"></div>
-                <div class="add-to-cart add-to-cart_feat feat__links"></div>
-                <div class="price price_feat"><span>$</span>99.<sup>00</sup></div>
-              </div>
-            </div>
-            <div class="featured-items__item">
-              <div class="featured-item__wrapper">
-                <img class="feat__img" src="img/feat-2.png" width="268" alt="feat-2">
-                <div class="featured-item__info">
-                  <h3 class="featured-item__title">Product Title here</h3>
-                  <p class="featured-item__description">Short Description here</p>
-                </div>
-              </div>
-              <div class="featured-item__links-block">
-                <div class="compare feat__links"></div>
-                <div class="add-to-whishlist add-to-whishlist_feat feat__links"></div>
-                <div class="add-to-cart add-to-cart_feat feat__links"></div>
-                <div class="price price_feat"><span>$</span>99.<sup>00</sup></div>
-              </div>
-            </div>
-            <div class="featured-items__item">
-              <div class="featured-item__wrapper">
-                <img class="feat__img" src="img/feat-3.png" width="268" alt="feat-3">
-                <div class="sticker sticker__bleu">NEW</div>
-                <div class="featured-item__info">
-                  <h3 class="featured-item__title">Product Title here</h3>
-                  <p class="featured-item__description featured-item__description_blue">Short Description here</p>
-                </div>
-              </div>
-              <div class="featured-item__links-block">
-                <div class="compare feat__links"></div>
-                <div class="add-to-whishlist add-to-whishlist_feat feat__links"></div>
-                <div class="add-to-cart add-to-cart_feat feat__links"></div>
-                <div class="price price_feat price_feat-blue"><span>$</span>99.<sup>00</sup></div>
-              </div>
-            </div>
-            <div class="featured-items__item">
-              <div class="featured-item__wrapper">
-                <img style="left: -55px;" class="feat__img" src="img/feat-4.png" width="378" alt="feat-4">
-                <div class="featured-item__info">
-                  <h3 class="featured-item__title">Product Title here</h3>
-                  <p class="featured-item__description">Short Description here</p>
-                </div>
-              </div>
-              <div class="featured-item__links-block">
-                <div class="compare feat__links"></div>
-                <div class="add-to-whishlist add-to-whishlist_feat feat__links"></div>
-                <div class="add-to-cart add-to-cart_feat feat__links"></div>
-                <div class="price price_feat"><span>$</span>99.<sup>00</sup></div>
-              </div>
-            </div>
-        </div>
-    </div>
+
+  <?php include ("featured_products/featured_products.html") ?>     
 
 <!-- CONTENT: Who we are block -->
 
@@ -263,5 +179,8 @@
     
 
 </div>
+
+<script src="js/new_products.js"></script>
+
 </body>
 </html>

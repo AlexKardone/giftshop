@@ -1,47 +1,55 @@
+<script src="../js/new_products.js"></script>
+
 <!--Блок "Новые товары"-->
-    <div class="carousels-block new-products clearfix">
+    <div id="carousel" class="carousels-block new-products clearfix">
         <div class="section-title__wrapper clearfix">
             <h3 class="section-title__title">New Products</h3>
             <div class="arrows">
-              <div class="arrows__both arrows__left">
-                <a href="#">
+              <div class="arrows__both arrows__left" id="arrow-left-np">
+                
                   <svg class="btn__arrow-block btn__arrow-block_carousel">
                     <rect class="btn__arrow btn__arrow-block_car-top" width="17" height="2" x="49" y="7" fill="#ffffff"/>
                     <rect class="btn__arrow btn__arrow_bottom btn__arrow-block_car-bottom" width="17" height="2" x="-8" y="48" fill="#ffffff"/>
                   </svg>
-                </a>
+                
               </div>
-              <div class="arrows__both arrow__right">
-                <a href="#">
+              <div class="arrows__both arrows__right" id="arrow-right-np">
                   <svg class="btn__arrow-block btn__arrow-block_carousel">
                     <rect class="btn__arrow btn__arrow-block_car-top" width="17" height="2" x="41" y="-3" fill="#ffffff"/>
                     <rect class="btn__arrow btn__arrow_bottom btn__arrow-block_car-bottom" width="17" height="2" x="-15" y="57" fill="#ffffff"/>
                   </svg>
-                </a>
               </div>
             </div>
         </div>
-
-        <div class="new-items">
-            <div class="new-items__item new-items__item-1">
-                <!-- <div class="panel__summary panel__summary_s panel__summary_crafts">
-                <h3><a href="#">Item name</a></h3>
-                <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-cart">add to cart</div>
-                <div class="price"><span>$</span>99.<sup>00</sup></div>
-                </div> -->
+            <div id="new-tems-wrapper" class="new-tems-wrapper">
+                <ul class="new-items" id="gallery-np">
+                    <li id="gallery-item" class="new-items__item new-items__item-1">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-1.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-2">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-2.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-3">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-3.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-1">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-1.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-2">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-2.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-3">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-3.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-3">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-3.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-1">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-1.png">
+                    </li>
+                    <li id="gallery-item" class="new-items__item new-items__item-2">
+                        <img class="gallery-item__img" src="/giftshop/img/new-prod-2.png">
+                    </li>
+                </ul>
             </div>
-            <div class="new-items__item new-items__item-2">
-                <!-- <h3><a href="#">Item name</a></h3>
-                <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-cart">add to cart</div>
-                <b>$99.00</b> -->
-            </div>
-            <div class="new-items__item new-items__item-3">
-                <!-- <h3><a href="#">Item name</a></h3>
-                <div class="add-to-whishlist">add to wishlist</div>
-                <div class="add-to-cart">add to cart</div>
-                <b>$99.00</b> -->
-            </div>
-        </div>
     </div>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width">-->
+    <title>Тест Мацкевич</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header clearfix">
+        <img src="img/logo.png" class="header__left" width="122" height="107" alt="logo" title="logo"></img>
+        <div class="header__center"></div>
+        <div class="header__right">
+            <p>+7 (915) 399-23-42</p>
+            <p><a href="#">manager@web-kenguru.ru</a></p>
+            <p><a href="#">www.web-kenguru.ru</a></p>
+        </div>
+    </div>
+    <div class="content clearfix">
+        <div class="content__wrapper">
+            <div class="content__row">
+                <div class="content__left">
+                    <div class="content__left-top">
+                        <ul>
+                            <li><strong>Создание сайтов</strong></li>
+                            <li>Изготовление сайтов «под ключ»</li>
+                            <li>Как мы работаем</li>
+                            <li>Интеграция с 1С</li>
+                            <li>Поддержка сайтов</li>
+                            <li>Создание сайтов на Битрикс</li>
+                            <li>Модули Битрикс</li>
+                            <li>Купить Битрикс</li>
+                            <li>Дизайн сайтов</li>
+                            <li>Редизайн сайтов</li>
+                            <li>Интернет-магазины</li>
+                            <li>Создание логотипов</li>
+                        </ul>
+                    </div>
+                    <div class="content__left-bottom"></div>
+                </div>
+                <div class="content__center">
+                    <div class="content__center-top">
+                        <h1>PSD файл с макетом. Макет разбит по слоям и сгрупированн по папкам:</h2>
+                            <ul>
+                                <li><strong>number</strong> - нумерация блоков (номера блоков верстать не нужно)</li>
+                                <li><strong>text</strong> - текстовые блоки (шрифт Arial, размер 14 пикселей, межстрочное растояние 22 пикселя)</li>
+                                <li><strong>head</strong> - шапка сайта</li>
+                                <li><strong>content</strong> - контентная область, которая в свою очередь делится на <strong>left</strong> и <strong>center</strong></li>
+                            </ul>
+                            <p>Текстовое описание задания и требования.</p>
+                    </div>
+                    <div class="content__center-items">
+                        <ul>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                            <li><img src="img/item.png" width="134" height="150" alt="content-item" title="content-item"</li>
+                        </ul>
+                    </div>
+                    <div class="content__center-bottom">
+                        <div class="content__center-bottom-left">
+                            <p>Поисковое продвижение (раскрутка) ведется по коммерческим запросам,
+                                что позволяет многократно увеличить количество продаж с сайта при разумном
+                                рекламном бюджете.</p>
+                        </div>
+                        <div class="content__center-bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <div class="footer__left">
+            <ul>
+                <li>Пункт 01</li>
+                <li>Пункт 02</li>
+                <li>Пункт 03</li>
+                <li>Пункт 04</li>
+                <li>Пункт 05</li>
+                <li>Пункт 06</li>
+                <li>Пункт 07</li>
+                <li>Пункт 08</li>
+                <li>Пункт 09</li>
+                <li>Пункт 10</li>
+                <li>Пункт 11</li>
+                <li>Пункт 12</li>
+                <li>Пункт 13</li>
+                <li>Пункт 14</li>
+            </ul>
+        </div>
+        <div class="footer__center">
+            <ul><li>Поисковое продвижение сайтов</li></ul>
+        </div>
+        <div class="footer__right">
+            <div onclick="show('block')" class="footer__right-top"></div>
+            <img class="footer__right-bottom" src="img/logo.png" width="308" height="76" title="title  при наведении" alt="Картинка в блоке 13">
+        </div>
+    </div>
+</div>
+<div onclick="show('none')" id="wrap" style="display: none;"></div>
+<div id="window" style="display: none;">
+    <img onclick="show('none')" class="close" id="close-button" src="img/close.png" width="32" height="32" title="закрыть" alt="закрыть">
+    <img class="image" src="img/logo.png" width="122" height="108" title="title  при наведении" alt="Картинка в блоке 13">
+</div>
+<script>
+    function show(state) {
+        document.getElementById('window').style.display = state;
+        document.getElementById('wrap').style.display = state;
+    }
+</script>
+</body>
+</html>

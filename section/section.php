@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Section</title>
     <link href="/giftshop/styles/styles.css" rel="stylesheet">
     <link href="/giftshop/styles/styles-internal.css" rel="stylesheet">
