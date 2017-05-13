@@ -36,6 +36,10 @@
 
 	/* Main-content block */
 
+	.main-content-block {
+		width: 320px;
+	}
+
 	.main-content-block__rect {
 		width: 320px;
 		height: 220px;
@@ -56,9 +60,11 @@
 
 	.wear-kids img {
 		width: 350px;
+		left: -10px;
 	}
 
 	.wear__panel {
+		width: 100%;
 		height: auto;
 		bottom: 0;
 	}
@@ -76,6 +82,25 @@
 		font-size: 12px;
 	}
 
+	/* Jevelry */
+
+	.panel__summary_jewelry {
+		height: 100%;
+	}
+
+	.panel__summary_jewelry h3 {
+		font-size: 15px;
+		right: 0;
+		bottom: 45px;
+	}
+
+	/* Crafts */
+
+	.panel__summary_crafts {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
 	/* Featured products */
 
 	.section-title__title {
@@ -90,9 +115,30 @@
 
 	/* Who-we-are block */
 
+	.our-features {
+		height: auto;
+	}
+
 	.rectangle {
 		margin: 0;
     	padding: 0;
+	}
+
+	.our-features__rectangle {
+		width: 320px;
+	}
+
+	.button-register-wrapper {
+		width: 320px;
+	}
+
+	.rectangle__title {
+		text-align: right;
+		font-size: 15px;
+	}
+
+	.rectangle__title h3 {
+		margin-right: 5px;
 	}
 
 	/* Page-footer */
@@ -117,7 +163,26 @@
 	}
 
 	.footer-menu__subscribe-block {
-		/*width: 320px;*/
+		width: 320px;
+	}
+
+	.subscribe-field {
+		width: 316px;
+	}
+
+	/* Brothers */
+
+	.internal-img {
+		
+		width: 320px;
+		height: 400px;
+		box-shadow: none;
+		
+	}
+
+	.internal-img img {
+		position: relative;
+		left: -58px;
 	}
 
 }

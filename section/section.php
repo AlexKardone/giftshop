@@ -6,6 +6,7 @@
     <title>Section</title>
     <link href="/giftshop/styles/styles.css" rel="stylesheet">
     <link href="/giftshop/styles/styles-internal.css" rel="stylesheet">
+    <link href="/giftshop/styles/adaptive.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -26,7 +27,7 @@
 		</div>
 	</div>
 	
-	<!-- <?php include("../footer/footer.html") ?> -->
+	<?php include("../footer/footer.html") ?>
 
 </div>
 </body>
