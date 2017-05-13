@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Gift Shop</title>
     <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/adaptive.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -20,13 +21,14 @@
     <div class="main-content-block clearfix">
 
         <div class="main-content-block__rect wear-mens">
+          <a href="/giftshop/section/section.php"><img src="/giftshop/img/mens.png"></a>
           <div class="wear__panel wear__panel_mens">
             <div class="panel__summary">
               <h2 class="summary__title">Men’s Wear</h2>
               <p class="summary__text">Lorem Ipsum is simply dummy text of the
                   printing and typesetting industry. Lorem</p>
             </div>
-            <div class="panel__btn">Lorem Ipsum is simply dummy text</div>
+            <a href="section/section.php" class="panel__btn-link"><div class="panel__btn">Lorem Ipsum is simply dummy text</div></a>
           </div>
 
             <!-- <div class="hover-block">
@@ -39,6 +41,7 @@
 
         <!--Блок "Женская одежда"-->
         <div class="main-content-block__rect wear-womens">
+          <a href="/giftshop/section/section.php"><img src="/giftshop/img/womens.png"></a>
           <div class="wear__panel wear__panel_s">
             <div class="panel__summary panel__summary_s">
               <h2  class="summary__title summary__title_s">Women’s Wear</h2>
@@ -57,6 +60,7 @@
 
         <!--Блок "Детская одежда"-->
         <div class="main-content-block__rect wear-kids">
+        <a href="/giftshop/section/section.php"><img src="/giftshop/img/kids.png"></a>
           <div class="wear__panel wear__panel_s">
             <div class="panel__summary panel__summary_s panel__summary_kids">
               <h2  class="summary__title summary__title_s">Baby’s Wear</h2>
@@ -77,7 +81,7 @@
 <!--Блок поиска-->
     <div class="main-content-block__rect search-block">
       <div class="search-block__wrapper">
-        <input class="search-block__field" type="text" name="search" id="search-field" placeholder="( e.g.: Silver diamond ring )">
+        <input class="search-block__field" type="text" name="search" id="search-field" placeholder="( e.g.: Silver diamond ring )" />
         <label class="search-block__label" for="search-field">Search your product here</label>
         <input class="search-block__btn" type="submit" name="submit-btn" id="submit-btn-field" value="Search">
         <a href="/giftshop/section/section.php">
@@ -94,6 +98,7 @@
     <!--Блок "Ювелирные изделия"-->
 
     <div class="main-content-block__rect jewelry-block">
+      <img src="img/jevelry.png" />
       <div class="panel__summary panel__summary_jewelry">
         <div class="summary__btn">
           <a href="/giftshop/section/section.php">
@@ -180,7 +185,7 @@
 
 </div>
 
-<script src="js/new_products.js"></script>
+<script src="js/carousels.js"></script>
 
 </body>
 </html>

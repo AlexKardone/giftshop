@@ -1,0 +1,123 @@
+@media screen and (max-width: 800px) {
+	.header-top,
+	.header-bottom,
+	.main-menu,
+	.search-block {
+		display: none;
+	}
+
+	.container {
+		width: 320px;
+	}
+
+	/* Page-header */
+
+	.page-header {
+		height: 70px;
+		padding: 0;
+		margin: 0 0 5px 0;
+		border-bottom: 1px solid black;
+	}
+
+	.page-header__logo {
+		width: 80px;
+		margin: 5px 0 0 5px;
+	}
+
+	.page-header__logo img {
+    width: 80px;
+    height: auto;
+	}
+
+	.menu-hamburger {
+		display: block;
+		top: 0;
+	}
+
+	/* Main-content block */
+
+	.main-content-block__rect {
+		width: 320px;
+		height: 220px;
+		margin-right: 0;
+	}
+
+	.main-content-block__rect img {
+    position: absolute;
+    width: 320px;
+    height: auto;
+    top: 0;
+    left: 0px;
+	}
+
+	.wear-womens img {
+		width: 520px;
+	}
+
+	.wear-kids img {
+		width: 350px;
+	}
+
+	.wear__panel {
+		height: auto;
+		bottom: 0;
+	}
+
+	.panel__summary {
+		padding: 5px;
+	}
+
+	.summary__title {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.summary__text {
+		font-size: 12px;
+	}
+
+	/* Featured products */
+
+	.section-title__title {
+		font-size: 17px;
+		left: 10px;
+	}
+
+	.featured-items__wrapper {
+		width: 275px;
+		margin: 0 auto;
+	}
+
+	/* Who-we-are block */
+
+	.rectangle {
+		margin: 0;
+    	padding: 0;
+	}
+
+	/* Page-footer */
+
+	.footer-menu {
+		width: 320px;
+	}
+
+	.footer-top {
+		display: block;
+		margin: 0 5px 0 5px;
+	}
+
+	.footer-menu {
+		display: inline-block;
+		padding: 0;
+	}
+
+	.footer-menu__title {
+		font-size: 20px;
+		margin: 0 0 5px 0;
+	}
+
+	.footer-menu__subscribe-block {
+		/*width: 320px;*/
+	}
+
+}

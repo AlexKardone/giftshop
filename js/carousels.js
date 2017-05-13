@@ -1,3 +1,5 @@
+// script for New Products block
+
 document.getElementById('arrow-left-np').onclick = sliderLeft;
 var left = 0;
 
@@ -19,6 +21,31 @@ function sliderRight () {
     left = 0;
   }
   line.style.left = left + 'px';
+}
+
+// Script for Featured Products block
+
+document.getElementById('arrow-left-fp').onclick = sliderLeftFp;
+var left1 = 0;
+
+function sliderLeftFp () {
+  var line = document.getElementById('gallery-fp');
+  left1 += 298;
+  if ( left1 > 0 ) {
+    left1 = 0;
+  }
+  line.style.left = left1 + 'px';
+}
+
+document.getElementById('arrow-right-fp').onclick = sliderRightFp;
+
+function sliderRightFp () {
+  var line = document.getElementById('gallery-fp');
+  left1 -= 298;
+  if ( left1 < -1192 ) {
+    left1 = 0;
+  }
+  line.style.left = left1 + 'px';
 }
 
 
