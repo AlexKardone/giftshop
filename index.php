@@ -186,6 +186,6 @@
 </div>
 
 <script src="js/carousels.js"></script>
-
+<script src="js/adapt.js"></script>
 </body>
 </html>

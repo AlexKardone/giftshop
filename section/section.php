@@ -18,7 +18,7 @@
 			<?php include ("../header/header.html") ?> 
 		
 		<div class="internal-img">
-			<img src="/giftshop/img/brothers.jpg" alt="brothers" width="400">
+			<img src="/giftshop/img/brothers.jpg" alt="brothers">
 		</div>
 
 		<p class="internal-message">
@@ -30,5 +30,7 @@
 	<?php include("../footer/footer.html") ?>
 
 </div>
+<script src="../js/carousels.js"></script>
+<script src="../js/adapt.js"></script>
 </body>
 </html>
